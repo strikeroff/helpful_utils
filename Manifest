@@ -1,0 +1,15 @@
+CHANGELOG
+gem-build.sh
+heplful_utils.gemspec
+Manifest
+Rakefile
+README
+lib/helpful_utils.rb
+lib/helpful_utils/activerecord_ext/humanized_attributes.rb
+lib/helpful_utils/common/configuration.rb
+lib/helpful_utils/core_ext/array.rb
+lib/helpful_utils/core_ext/hash.rb
+lib/helpful_utils/core_ext/kernel.rb
+lib/helpful_utils/core_ext/string.rb
+lib/helpful_utils/patching_utils/event_machine.rb
+lib/helpful_utils/patching_utils/inheritance_tree.rb
