@@ -13,3 +13,4 @@ lib/helpful_utils/core_ext/kernel.rb
 lib/helpful_utils/core_ext/string.rb
 lib/helpful_utils/patching_utils/event_machine.rb
 lib/helpful_utils/patching_utils/inheritance_tree.rb
+test/core_tests.rb

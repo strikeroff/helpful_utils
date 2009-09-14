@@ -3,5 +3,5 @@ del /Q pkg
 call rake manifest
 call rake install
 cd pkg
-call gem install helpful_utils-0.0.1
+call gem install helpful_utils-0.0.2
 cd ..
