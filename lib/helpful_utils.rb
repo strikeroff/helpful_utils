@@ -19,8 +19,11 @@ HelpfulUtils::EventMachine.subscribe :after_initialize_with_helpful_utils do
   Dir[File.join(File.dirname(__FILE__), "helpful_utils", "core_ext")<<"/*.rb"].each do |file|  
     require file
   end
+  ma, mi, ti = ActiveRecord::VERSION::MAJOR, ActiveRecord::VERSION::MINOR, ActiveRecord::VERSION::TINY
 
-  require File.join(File.dirname(__FILE__), "helpful_utils", "activerecord_ext", "humanized_attributes.rb")
+  unless (ma >= 2 && mi >= 3 )
+    require File.join(File.dirname(__FILE__), "helpful_utils", "activerecord_ext", "humanized_attributes.rb")
+  end
 
 
 end
