@@ -1,6 +1,6 @@
 require "echoe"
 
-Echoe.new( "helpful_utils" ) do |p|
+Echoe.new( "strikeroff-helpful_utils" ) do |p|
   p.author =          [ "Ilya Vesov","Anatoly Lapshin"]
   p.summary =         "collection of helpful utils,hacks , etc"
   p.email =           "strikeroff@gmail.com"
